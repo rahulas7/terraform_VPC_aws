@@ -239,11 +239,12 @@ resource "aws_route_table_association" "private3" {
 ----
 ## Conclusion
 That’s all. All you need to follow below these steps and clone this repository to start terraform.
-After cloning the repo, just run these 3 commands
+
 Note: modify vpc.tfvars values accordingly as per your requirements.
+
+After cloning the repo to th project directoy, just run these 3 commands.
 ```sh
 terraform init 
 terraform plan 
-terraform apply 
-}
+terraform apply
 ```
